@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIGN UP</title>
+    <style>
+        body {
+            background:url(bg4.jpg);
+            background-size: cover;
+            color:yellow;
+            font-family: Arial, sans-serif;
+        }
+
+        .form {
+            margin: 0 auto;
+            width: 300px;
+            padding: 20px;
+        }
+
+        label {
+            color: chocolate;
+        }
+
+        .purpose {
+            color: aqua;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .buttons:hover {
+            color: aqua;
+            background-color: #4234db;
+        }
+        .styled form {
+            margin margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .styled [type="button"] {
+            padding: 10px 20px; /* button size */
+            background-color: #3498db; /* initial background color */
+            color: #ffffff; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="button"]:hover {
+            background-color:purple; /*background color on hover */
+            color:aliceblue; /*text color on hover */
+        }
+        .styled [type="submit"] {
+            border-radius: 10px;
+            padding: 5px 10px; /* button size */
+            background-color: #3498db; /* initial background color */
+            color: #ffffff; /*initial text color */
+            border: none;
+            transition: background-color 0.3s, color 0.3s; /*smooth transition */
+        }
+        .styled [type="submit"]:hover {
+            background-color:purple; /*background color on hover */
+            color:#ffffff; /*text color on hover */
+        }
+        .styled [type="text"] {
+            margin-left: 500px;
+            transition: background-color 0.3s; 
+            background-color:bisque;
+        }
+        .styled input[type="text"]:focus {
+    /* Change background color when input is focused */
+    background-color:rgb(224, 127, 224); /* Adjust the color as needed */
+}
+.text{
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.text :focus{
+    background-color:skyblue;  
+}
+.full{
+    background:url(product.jpg);
+    padding: 10px;
+    border:4px double white;
+}
+    </style>
+</head>
+<body>
+    <form class="styled ">
+        <div class=>
+            <a href="mainpage.html">
+                <input type="button" value="HOME">
+            </a>
+            <a href="products.html">
+                <input type="button" value="OUR PROJECTS">
+            </a>
+            <a href="about.html">
+                <input type="button" value="ABOUT US">
+            </a>
+            <a href="sign.html">
+                <input type="button" value="SIGN IN">
+            </a>
+            <a href="contact.html">
+                <input type="button" value="CONTACT">
+            </a>  
+            <input type="text">
+            <input type="submit"value="SEARCH">  
+        </div>
+    </form>
+    <div class="form">
+        <p align="center">JOIN THE CAVE OF HRR SCOFT</p>
+        <p align="center">DON'T HAVE AN ACCOUNT YET..</p>
+        <div class="full">
+        <div class="text">
+           
+        <label>Unique Username</label>
+        <input type="text" value="username"><br><br>
+        <label>Email</label>
+        <input type="email" value="email"><br><br>
+        </div>
+        <label>DOB</label>
+        <input type="date"><br><br>
+        <label>Gender</label><br>
+        <div class="purpose">
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br><br>
+        </div>
+        <label>Purpose</label><br>
+        <div class="purpose">
+            <input type="radio" name="purpose">Study<br>
+            <input type="radio" name="purpose">Work<br>
+            <input type="radio" name="purpose">Partnership<br><br>
+        </div>
+        <label>Click the checkbox to prove you are human</label>
+        <input type="checkbox"><br><br>
+        
+            <input type="submit" value="CREATE ACCOUNT" class="buttons">
+            <input type="submit" value="DOWNLOAD SOFTWARE"class="buttons">
+        
+    </div>
+</div>
+</body>
+<footer style="background-color:rgb(9, 10, 10); margin-top: 110px; border: none;">
+    <P style="color:#ffffff ;"align="center">Designed and Devoloped by BASKAR J 23013386 </P>
+</footer>
+</html>
+
