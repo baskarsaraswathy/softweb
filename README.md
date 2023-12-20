@@ -297,6 +297,8 @@ about.html
 
 
 
+
+
 <html>
 <title>ABOUT US</title>
 <style>
@@ -395,13 +397,13 @@ about.html
     <img src="vi6.jpg" height="200" width="200">
 </div>
 <div CLASS="names">
-    <P>BASKAR  J</P>    
-    <P style="margin-left:-20;">MR PARTHIBAN</P>    
-    <P>MR JACK DANIEL</P>    
-    <P>MR VIJAY RAJENDRAN</P>    
-    <P>MR VEERA RAGAVAN</P>    
-    <P>MR VETRI MAARAN</P>    
-    <P>MR JOSEPH KURUVILLA</P>    
+    <P style="margin-right: 10;"> Dr BASKAR  J</P>    
+    <P style="margin-left:60;">Mr PARTHIBAN</P>    
+    <P style="margin-left:40 ;">Mr JACK DANIEL</P>    
+    <P>Mr VIJAY RAJENDRAN</P>    
+    <P>Mr VEERA RAGAVAN</P>    
+    <P>Mr VETRI MAARAN</P>    
+    <P>Mr JOSEPH KURUVILLA</P>    
 </div>
 <DIV class="position">
     <p>FOUNDER </p>
@@ -418,6 +420,7 @@ about.html
     <P style="color:#ffffff; ;"align="center">Designed and Devoloped by BASKAR J 23013386</P>
 </footer>
 </html>
+
 
 
 sign.html
@@ -751,7 +754,7 @@ border:2px solid red;
 ## OUTPUT:
 ![Alt text](<Screenshot (99).png>)
 ![Alt text](<Screenshot (100).png>)
-![Alt text](<Screenshot (101).png>)
+![Alt text](<Screenshot (105).png>)
 ![Alt text](<Screenshot (103).png>)
 ![Alt text](<Screenshot (104).png>)
 
